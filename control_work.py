@@ -6,3 +6,6 @@ for i in range(n):
 word_list = string.split(",")
 count = len(word_list)
 print("количество введенных строк:", count)
+print("Новый массив:")
+if count <= 3:
+   print(word_list[1:count])
