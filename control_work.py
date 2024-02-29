@@ -9,3 +9,5 @@ print("количество введенных строк:", count)
 print("Новый массив:")
 if count <= 3:
    print(word_list[1:count])
+elif count > 3:
+   print(word_list[count - count: 3])
