@@ -1,4 +1,4 @@
-n = 1
+n = 0
 string = [0] * n
 string = (input('Введите массив: '))
 for i in range(n):
