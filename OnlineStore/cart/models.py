@@ -40,7 +40,7 @@ class CartItem(models.Model):
     item = models.ForeignKey(
         Item,
         on_delete=models.CASCADE,
-        verbose_name='Товар',
+        verbose_name='Рецепты',
     )
     quantity = models.PositiveIntegerField(
         default=1, verbose_name='Количество',)

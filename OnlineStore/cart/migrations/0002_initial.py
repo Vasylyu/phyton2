@@ -6,7 +6,6 @@ import django.db.models.deletion
 
 
 class Migration(migrations.Migration):
-
     initial = True
 
     dependencies = [
@@ -19,11 +18,13 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='cartitem',
             name='item',
-            field=models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='store.item', verbose_name='Товар'),
+            field=models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='store.item',
+                                    verbose_name='Рецепты'),
         ),
         migrations.AddField(
             model_name='cart',
             name='user',
-            field=models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='carts', to=settings.AUTH_USER_MODEL, verbose_name='Покупатель'),
+            field=models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='carts',
+                                    to=settings.AUTH_USER_MODEL, verbose_name='Покупатель'),
         ),
     ]

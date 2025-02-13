@@ -55,8 +55,8 @@ class Migration(migrations.Migration):
                 ('tags', taggit.managers.TaggableManager(help_text='A comma-separated list of tags.', related_name='tagged_items', through='store.TaggedItem', to='store.ItemTag', verbose_name='Категории')),
             ],
             options={
-                'verbose_name': 'Товар',
-                'verbose_name_plural': 'Товары',
+                'verbose_name': 'Рецепт',
+                'verbose_name_plural': 'Рецепты',
                 'ordering': ['-price'],
             },
         ),
