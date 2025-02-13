@@ -1,4 +1,3 @@
-# https://natolin.pythonanywhere.com/
 
 # Интернет магазин на Django
 
@@ -11,14 +10,14 @@
 ```
 https://github.com/dagedarr/StoreProject.git
 
+cd StoreProject
 cd OnlineStore
 ```
-Если вы не используете Git, то вы можете просто скачать исходный код репозитория в ZIP-архиве и распаковать его на свой компьютер.
 
 2. Создайте виртуальное окружение и активируйте его
 ```
 python -m venv venv
-source venv/bin/activate
+source venv/bin/activate (для линукс)
 ```
 3. Установите зависимости
 ```
@@ -48,6 +47,5 @@ python manage.py runserver
 Если у вас есть предложения по улучшению или вы обнаружили баг, не стесняйтесь создать issue, отправить pull request либо написать напрямую автору. Ваш вклад приветствуется!
 
 # Автор
-[Натолин Артем](https://github.com/dagedarr)
+[Василий Григорьев](https://github.com/dagedarr)
 
-[Ссылка на еще один мой проект - финансовый ассистент](https://github.com/dagedarr/telegram-budget) 
